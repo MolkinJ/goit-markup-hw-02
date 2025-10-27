@@ -112,3 +112,42 @@ li {
 a {
   text-decoration: none;
 }
+.position {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--slate);
+}
+
+.portfolio-title {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.portfolio-description {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+.footer-description {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--cloud);
+}
