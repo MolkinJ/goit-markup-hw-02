@@ -1,4 +1,4 @@
-:root {
+.body {
   --iris: #4d5ae5;
   --ocean: #404bbf;
   --navy-blue: #2e2f42;
@@ -13,6 +13,9 @@
   --dairy: #fcfcfc;
   --font-family: "Roboto", sans-serif;
   --second-family: "Raleway", sans-serif;
+}
+.header {
+  display: flex;
 }
 
 .logo {
@@ -34,14 +37,7 @@
   text-transform: uppercase;
   color: var(--iris);
 }
-.nav {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--navy-blue);
-  text-decoration: none;
-}
+
 .contacts {
   font-family: var(--font-family);
   font-weight: 400;
@@ -54,9 +50,65 @@
   text-decoration: none;
 }
 
-.nav-list {
+.main-title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white);
+}
+.hero-button {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+
+  /* line-height: 24px; */
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: var(--iris);
+}
+.title-section1 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.section1-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.main-title-section {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
+}
+.team-member {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
+}
+
+li {
   list-style: none;
 }
-.contacts-list {
-  list-style: none;
+a {
+  text-decoration: none;
 }
