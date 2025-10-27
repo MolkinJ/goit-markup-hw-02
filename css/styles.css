@@ -40,6 +40,16 @@
   text-transform: uppercase;
   color: var(--navy-blue);
 }
+.logo-blue-footer {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 18px;
+
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white);
+}
 
 .contacts {
   font-family: var(--font-family);
@@ -57,7 +67,7 @@
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--white);
@@ -67,11 +77,11 @@
   font-weight: 500;
   font-size: 16px;
 
-  /* line-height: 24px; */
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--white);
   background: var(--iris);
+  cursor: pointer;
 }
 .title-section1 {
   font-weight: 500;
@@ -181,4 +191,19 @@ a {
 }
 .footer {
   background-color: var(--navy-blue);
+}
+.hero {
+  background-color: var(--navy-blue);
+}
+.hero-button:hover {
+  background-color: var(--ocean);
+}
+.hero-button:focus {
+  background-color: var(--ocean); /* Додано */
+}
+.team {
+  background-color: var(--cloud);
+}
+.team-list {
+  background-color: var(--white);
 }
