@@ -183,9 +183,7 @@ a {
 .contacts:focus {
   color: var(--ocean);
 }
-.features {
-  background-color: var(--cloud);
-}
+
 .section1-list {
   background-color: var(--white);
 }
